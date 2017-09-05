@@ -141,7 +141,7 @@ i.glyphicon.glyphicon-menu-hamburger {
   transform: rotateX(-180deg);
 }
 .hover-fold .front {
-  background: url(../images/aa.jpg) top;
+  background: url(../images/pay.jpg) top;
   height: 100%;
   /*has to be 100% of .top */
   width: 100%;
@@ -164,7 +164,7 @@ i.glyphicon.glyphicon-menu-hamburger {
   line-height:2em;
 }
 .hover-fold .bottom {
-  background: url(../images/aa.jpg) bottom;
+  background: url(../images/pay.jpg) bottom;
   height: 50%;
   position: absolute;
   top: 50%;
@@ -172,16 +172,16 @@ i.glyphicon.glyphicon-menu-hamburger {
   z-index: 0;
 }
 .hover-fold .front1 {
-  background: url(../images/aa1.jpg) top;
+  background: url(../images/pastel.jpg) top;
 }
 .hover-fold .bottom1{
-  background: url(../images/aa1.jpg) bottom;
+  background: url(../images/pastel.jpg) bottom;
 }
 .hover-fold .front2 {
-  background: url(../images/aa2.jpg) top;
+  background: url(../images/bebida.jpg) top;
 }
 .hover-fold .bottom2{
-  background: url(../images/aa2.jpg) bottom;
+  background: url(../images/bebida.jpg) bottom;
 }
 /*--content--*/
 .content-top-top {
