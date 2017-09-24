@@ -119,8 +119,8 @@ body{
 }
 @media(max-width:991px){
 .toggle {
-    width: 50%;
-    left: 25%;
+    width: 80%;
+    left: 10%;
 }
 }
 @media(max-width:414px){
