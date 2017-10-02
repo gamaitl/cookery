@@ -59,7 +59,7 @@ body{
 .toggle {
   display: block;
   margin: 20px auto;
-  width: 30%;
+  width: 80%;
   background-color:rgb(14, 92, 67);
   padding: 15px;
   display: block;
@@ -70,7 +70,7 @@ body{
   -ms-transform: translateY(-200%);
   transform: translateY(-200%);
   position:absolute;
-  left:35%;
+  left:10%;
 }
 
 .toggle--active {
@@ -128,8 +128,8 @@ body{
     width: 35px;
 }
 .toggle {
-    width: 70%;
-    left: 15%;
+    width: 80%;
+    left: 10%;
 	 padding: 10px;
 }
 .toggle-menu li a {
