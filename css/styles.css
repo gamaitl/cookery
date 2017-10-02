@@ -117,12 +117,12 @@ body{
   transform: scale(1.15);
   font-weight: 700;
 }
-@media(max-width:991px){
-.toggle {
-    width: 80%;
-    left: 10%;
+@media(min-width:992px){
+.navicon {
+    width: 35px;
 }
-}
+
+
 @media(max-width:414px){
 .navicon {
     width: 35px;
