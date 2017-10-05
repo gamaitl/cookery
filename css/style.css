@@ -30,6 +30,9 @@ body a{
 h1,h2,h3,h4,h5,h6,label,p{
 	margin:0;	
 }
+.header_padding_top{
+    padding-top: 1.4em;
+}
 .logo{
 	float:left;
 }

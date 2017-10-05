@@ -23,6 +23,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!---->
 <link href='//fonts.googleapis.com/css?family=Raleway:400,200,100,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
 <link href="css/styles.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/component.css" />
 	<!-- animation-effect -->
@@ -34,25 +46,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- //animation-effect -->
 
 </head>
-<body>
-<div class="header head">
-	<div class="container">
-		<div class="logo">
+<body class="body_padding_top">
+<nav class="hidden-xs hidden-sm navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topFixedNavbar1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="#">Mayca</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="topFixedNavbar1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="about.html">About</a></li>       
+				<li><a href="menu.html">Products</a></li>       
+        <li><a href="aplication.html">Aplication</a></li> 
+        <li><a href="events.html">Elaboration</a></li> 
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+<div class="header_padding_top">
+   <div class="container">
+		<div class="logo animated wow pulse" data-wow-duration="1000ms" data-wow-delay="500ms">
 			<h1><a href="index.html">Mayca</a></h1>
 		</div>
-		<div class="nav-icon">		
+		<div class="hidden-md hidden-lg nav-icon">		
 			<a href="#" class="navicon"></a>
 				<div class="toggle">
 					<ul class="toggle-menu">
-						<li><a  href="index.html">Home</a></li>
-						<li><a  href="menu.html">Menu</a></li>
-						<li><a   href="blog.html">Blog</a></li>
-						<li><a  href="typo.html">Codes</a></li>
-						<li><a  href="events.html">Events</a></li>
-						<li><a class="active" href="contact.html">Contact</a></li>
+						<li><a class="active" href="index.html">Home</a></li>
+						<li><a  href="menu.html">Products</a></li>
+						<li><a  href="blog.html">Application</a></li>
+						<li><a  href="typo.html">Elaboration</a></li>
+						
+						<li><a  href="contact.html">Contact</a></li>
 					</ul>
 				</div>
-			<script>
+		    <script src="js/bootstrap.js"></script>
+		    <script>
 			$('.navicon').on('click', function (e) {
 			  e.preventDefault();
 			  $(this).toggleClass('navicon--active');
@@ -63,9 +97,17 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="clearfix"></div>
 	</div>
 	<!-- start search-->	
-		
+	<!--
+		<div class="banner">
+			<p class="animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">The Original Mexican Mayca</p>
+			<label></label>
+			<h4 class="animated wow fadeInTop" data-wow-duration="1000ms" data-wow-delay="500ms">Welcome</h4>
+			<a class="scroll down" href="#content-down"><img src="images/down.png" alt=""></a>
+		</div>
+		-->
 </div>
 <!--content-->
+
 	<div class="contact">
 		<div class="container">
 		<div class="menu-top">
@@ -131,6 +173,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>
 	</div>
+
+
 <!--footer-->
 	<div class="footer">
 		<div class="container">
@@ -146,9 +190,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span>There are many variations of passages</span>
 				</div>
 				<div class="col-md-4 footer-bottom  animated wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-					<h2>Follow Us</h2>
+					<h2>Contact</h2>
 					<label><i class="glyphicon glyphicon-menu-up"></i></label>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>
+					<p>Mayca of UK LIMITED<br />
+      					<br /><a href="#">Contact Form</a><br />
+      					<br />The Lodge, College Road,
+      					<br />Spinkhill, Derbyshire, S21 3YL,
+      					<br />England, Great Britain
+      					<br />Phone: +447970416320
+      					<br />Email:  sales@mayca.co.uk 
+					</p>
 					<ul class="social-ic">
 						<li><a href="#"><i></i></a></li>
 						<li><a href="#"><i class="ic"></i></a></li>
@@ -165,7 +216,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 	</div>		
 	<!--//footer-->
-
 </body>
 </html>
+
+
+
+
+
+
 
