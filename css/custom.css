@@ -1,7 +1,7 @@
 /* CSS Document */
 .fondo_carrusel
 {
-    background-image: url(images/banner_hojas.jpg);
+    background-image: url(../images/banner_hojas.jpg);
     background-repeat-x: no-repeat;
     background-repeat-y: no-repeat;
     background-size: contain;
